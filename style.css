@@ -1,0 +1,33 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #edf2f4;
+  width: 100vw;
+  height: 100vh;
+}
+
+main:hover {
+  font-variation-settings: 'wght', 100, 'ital' o;
+  text-shadow: none;
+}
+
+main {
+  transition: all 0.5s;
+  -webkit-text-stroke: 6px #252525;
+  font-variation-settings: 'wght', 900, 'ital' 1;
+  font-size: 5rem;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  color: transparent;
+  text-shadow: 10px 10px 0px #165954, 15px 15px 0px #f9ac66, 20px 20px 0px #ed6b5b, 45px 45px 10px #252525;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
